@@ -8,108 +8,192 @@
     body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f4f6f8; color: #222; }
     header { background: linear-gradient(90deg, #0072b1 0%, #005983 100%); color: #fff; padding: 48px 0 24px 0; text-align: center; }
     .profile-img { border-radius: 50%; width: 130px; border: 5px solid #fff; margin-top: -70px; background: #eee; }
-    section { max-width: 900px; margin: 40px auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.07); padding: 40px; }
+    section { max-width: 950px; margin: 40px auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.07); padding: 40px; }
     h1, h2 { margin-top: 0; }
     .headline { font-size: 1.3em; margin-bottom: 10px; }
     .location { color: #e1ecf4; font-size: 1em; }
-    .experience, .education { margin-bottom: 30px; }
+    .skills, .certs, .languages { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+    .skill, .cert, .lang { background: #e1ecf4; color: #0366d6; padding: 6px 14px; border-radius: 20px; font-size: 1em; }
     .exp-title { font-weight: bold; font-size: 1.1em; }
     .exp-company { color: #0072b1; }
     .exp-duration { color: #555; font-size: 0.95em; }
+    .achievements li, .projects li { margin-bottom: 10px; }
     .contact { text-align: center; margin-top: 40px; }
     .contact a { color: #0072b1; text-decoration: none; font-weight: bold; }
-    .skills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
-    .skill { background: #e1ecf4; color: #0366d6; padding: 6px 14px; border-radius: 20px; font-size: 1em; }
-    @media (max-width: 600px) {
-      section { padding: 20px; }
-    }
+    .download { margin-top: 20px; text-align: center; }
+    .download a { background: #0072b1; color: #fff; padding: 10px 24px; border-radius: 24px; text-decoration: none; font-weight: bold; }
+    @media (max-width: 600px) { section { padding: 20px; } }
   </style>
 </head>
 <body>
   <header>
     <img src="https://static.thenounproject.com/png/5034901-200.png" alt="Vijayakamal Elancheran" class="profile-img">
     <h1>Vijayakamal Elancheran</h1>
-    <div class="headline">Assistant General Manager – Global IT | IT Service Delivery Leader | Digital Transformation | Cloud | Gen AI | PMP | ITIL</div>
-    <div class="location">India</div>
+    <div class="headline">Associate General Manager – Global IT | IT Service Delivery Leader | PMP | ITIL | Cloud | Cybersecurity</div>
+    <div class="location">Chennai, India</div>
   </header>
 
   <section>
     <h2>About Me</h2>
     <p>
-      Accomplished IT Service Delivery Leader and Assistant General Manager – Global IT with proven expertise in digital transformation, cloud technologies (GCP, Azure, AWS), Gen AI, cybersecurity, IT operations, and project management. Recognized for driving innovation, leading global teams, and delivering large-scale IT projects for Fortune 500 clients. Certified PMP, ITIL, and Six Sigma professional with a passion for solving complex business challenges and enabling organizational growth.
+      Dynamic IT leader with 21+ years of expertise in Service Delivery, IT Infrastructure, and Project Management across global industries. Adept at driving digital transformation, robust security, and operational excellence for organizations of all sizes. Visionary strategist recognized for leading multi-million-dollar IT initiatives, managing large teams, and delivering innovative solutions that enhance customer satisfaction, business continuity, and cost efficiency.
     </p>
+    <div class="download">
+      <a href="https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72672423/47af82a7-9e24-4007-b18b-b837fe5f9867/Resume-Vijayakamal.pdf" target="_blank">Download My Resume (PDF)</a>
+    </div>
   </section>
 
   <section>
-    <h2>Experience</h2>
+    <h2>Core Competencies</h2>
+    <div class="skills">
+      <div class="skill">IT Service Delivery Management</div>
+      <div class="skill">IT Infrastructure Management</div>
+      <div class="skill">IT Project Management</div>
+      <div class="skill">Incident & Change Management</div>
+      <div class="skill">IT Security & Risk Management</div>
+      <div class="skill">Cloud (Azure, AWS, GCP)</div>
+      <div class="skill">Cybersecurity & Compliance</div>
+      <div class="skill">Stakeholder Management</div>
+      <div class="skill">Disaster Recovery</div>
+      <div class="skill">Business Continuity (BCP)</div>
+      <div class="skill">Digital Transformation</div>
+      <div class="skill">Team Leadership</div>
+      <div class="skill">Process Automation</div>
+      <div class="skill">Vendor & Budget Management</div>
+      <div class="skill">Customer Experience (CSAT)</div>
+      <div class="skill">P&L Management</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications & Trainings</h2>
+    <div class="certs">
+      <div class="cert">PMP</div>
+      <div class="cert">ITIL V3 Foundation</div>
+      <div class="cert">GCP Digital Leader</div>
+      <div class="cert">Microsoft Azure Fundamentals (AZ-900)</div>
+      <div class="cert">Azure AI Fundamentals (AI-900)</div>
+      <div class="cert">Cybersecurity (CC) ISC2</div>
+      <div class="cert">CCNA & CCNP</div>
+      <div class="cert">People Manager (HCL)</div>
+      <div class="cert">Trained: AWS, GEN AI, Leadership, Quality Mgmt.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><b>Helpdesk & End User Support:</b> Desktop/Laptop/Handheld (BYOD), EUC, Blackberry support</li>
+      <li><b>Network Technologies:</b> MPLS, BGP, VRF, SDWAN, OSPF, EIGRP, Metro Ethernet, VNet, VLAN, VPN, IPSEC, GRE, S2S, IPVPN, Leaf-Spine, VPC, STP, RSTP, MSTP, LAN/WAN, Ethernet, 802.11x, SD Access</li>
+      <li><b>Cloud Computing:</b> Azure, AWS, GCP, Virtualization (VDI, VMs, Azure Virtual Desktop)</li>
+      <li><b>Network Security:</b> Cisco Firewall (PIX, ASA), FortiGate, Checkpoint, Firepower, Zscaler, Netscaler, Blue Coat, PCI DSS, ISO Audit, Tunneling, Encryption, SOC, SIEM (Splunk, Q Radar), EDR, Zero Trust</li>
+      <li><b>Hardware:</b> Cisco Routers/Switches, HP Switches, Nexus Series, Polycom/Tandberg/Cisco VC, HP Aruba, Meru, Proxim, Air Nexus</li>
+      <li><b>ITSM/Monitoring Tools:</b> BMC Remedy, ServiceNow, Cisco Works, MRTG, NetFlow Analyzer, Patrol, Ipswitch</li>
+      <li><b>Compliance:</b> ISO, PCI-DSS, HIPAA, GDPR</li>
+      <li><b>Digital Transformation:</b> ITIL, Process Automation, BPR, Change Management</li>
+      <li><b>AI & GEN AI:</b> Knowledge of AI, Gen AI, ML, DevOps</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
     <div class="experience">
-      <div class="exp-title">Assistant General Manager – Global IT</div>
-      <div class="exp-company">HCL Technologies</div>
-      <div class="exp-duration">Present</div>
+      <div class="exp-title">Associate General Manager (AGM) – Global IT Service Delivery Leader</div>
+      <div class="exp-company">HCL Technologies, Chennai</div>
+      <div class="exp-duration">May 2019 – Present</div>
       <ul>
-        <li>Leading global IT service delivery, digital transformation, and cloud adoption initiatives.</li>
-        <li>Managing cross-functional teams and ensuring seamless IT operations for enterprise clients.</li>
+        <li>Lead IT service delivery, operations, and network management for 15,000+ users and 75+ projects across South India.</li>
+        <li>Managed seamless transition of 25,000+ users to WFH during the pandemic with zero service interruption.</li>
+        <li>Introduced self-service portals and chatbots, improving ITSM efficiency and user experience.</li>
+        <li>Oversaw IT asset lifecycle, security compliance, budgeting, and vendor management.</li>
+        <li>Directed a team of 100+ resources, including 50+ direct reports, ensuring high CSAT and team performance.</li>
+        <li>Acted as Project Manager for IT infra deployments, rollouts, and improvement projects.</li>
+        <li>Reported to Sr. VP, influenced IT strategy, budgeting, and technology adoption.</li>
       </ul>
     </div>
     <div class="experience">
-      <div class="exp-title">Director of Training</div>
-      <div class="exp-company">LCCM Asia Sdn Bhd</div>
-      <div class="exp-duration">Past</div>
+      <div class="exp-title">IT Manager – IT Infra / IT Projects / EUX</div>
+      <div class="exp-company">Siemens Gamesa Renewable Power (P) Ltd., Chennai</div>
+      <div class="exp-duration">Feb 2011 – Apr 2019</div>
       <ul>
-        <li>Drove organizational learning and upskilling programs across Asia-Pacific.</li>
+        <li>Oversaw IT infra management, service delivery, network management, and helpdesk support for India operations.</li>
+        <li>Implemented 25+ branch offices with IPSEC VPN, handled major IT projects for new factories (Data Centre, IT infra).</li>
+        <li>Achieved cost savings of USD 2 million via virtualization, automation, and mobile plans.</li>
+        <li>Led MPLS migration for 3,000 users with zero downtime; managed team of 50+ resources.</li>
+        <li>Specialized in SCADA, IOT, IT/OT integration for wind turbine networks.</li>
       </ul>
     </div>
     <div class="experience">
-      <div class="exp-title">IT Leadership Roles</div>
-      <div class="exp-company">Siemens, Wipro, SIFY</div>
-      <div class="exp-duration">Past</div>
-      <ul>
-        <li>Delivered IT strategy, project management, and digital innovation across multiple industries.</li>
-      </ul>
+      <div class="exp-title">Sr. Specialist – Network Management</div>
+      <div class="exp-company">Wipro Infotech Limited, Chennai</div>
+      <div class="exp-duration">Aug 2007 – Feb 2011</div>
     </div>
+    <div class="experience">
+      <div class="exp-title">Cluster Lead – Data Network</div>
+      <div class="exp-company">Reliance Communications Ltd., Mangalore/Bangalore</div>
+      <div class="exp-duration">Aug 2006 – Aug 2007</div>
+    </div>
+    <div class="experience">
+      <div class="exp-title">Engineer – Network Control Group</div>
+      <div class="exp-company">SIFY Ltd (Sathyam Info way), Delhi/Hyderabad</div>
+      <div class="exp-duration">Sep 2003 – Aug 2006</div>
+    </div>
+    <div class="experience">
+      <div class="exp-title">Network Engineer</div>
+      <div class="exp-company">Guru Engineering Ltd., Chennai</div>
+      <div class="exp-duration">Jun 2002 – Sep 2003</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Key Projects</h2>
+    <ul class="projects">
+      <li><b>Regional SPOC for New Technology Rollouts:</b> Led resource optimization, skill development, and hybrid workplace projects for HCL Tech.</li>
+      <li><b>MPLS Network Implementation (Siemens Gamesa):</b> Migrated 3,000 users to new MPLS with zero downtime. Budget: INR 40 million.</li>
+      <li><b>Greenfield IT Facility Setups:</b> Delivered end-to-end IT infra for new factories in Nellore, Mamandur, Halol (INR 40–80 million budgets).</li>
+      <li><b>Win 7 IOS Migration:</b> Migrated 4,500 users across India.</li>
+      <li><b>Wi-Fi & Network Architecture:</b> Designed and executed Wi-Fi and BGP/MPLS upgrades for multiple offices.</li>
+      <li><b>Data Center Migration & Server Consolidation:</b> Led execution and closure for major DC migration projects.</li>
+      <li><b>Pandemic Response:</b> Seamlessly transitioned 25,000+ users to WFH with full IT support and device delivery.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Major Achievements</h2>
+    <ul class="achievements">
+      <li>Consistently achieved 100% IT Security Compliance metrics and enhanced IT metrics for new risk trends.</li>
+      <li>Recognized for executing critical MPLS migration and saving USD 2 million in a single year.</li>
+      <li>Architected scalable cloud infrastructure, resulting in future savings and business agility.</li>
+      <li>Improved customer satisfaction (CSAT) and end-user experience through innovative IT solutions.</li>
+      <li>Led multi-year IT transformation, turning IT into a strategic enabler for business growth.</li>
+    </ul>
   </section>
 
   <section>
     <h2>Education</h2>
     <div class="education">
-      <div class="exp-title">Bachelor’s Degree, Computer Science Engineering (First Class)</div>
-      <div class="exp-company">University of Madras</div>
+      <div class="exp-title">B.E. (Electronics and Communication)</div>
+      <div class="exp-company">University of Madras, India</div>
+      <div class="exp-duration">2002</div>
     </div>
   </section>
 
   <section>
-    <h2>Certifications</h2>
-    <ul>
-      <li>PMP (Project Management Professional)</li>
-      <li>ITIL V3 Foundation</li>
-      <li>GCP, Azure, AWS (Cloud Certifications)</li>
-      <li>Generative AI Fundamentals (Databricks)</li>
-      <li>Six Sigma Green Belt, Lean, Kaizen Automation</li>
-      <li>Adaptability & Resilience (McKinsey & Company)</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Skills</h2>
-    <div class="skills">
-      <div class="skill">IT Service Delivery</div>
-      <div class="skill">Digital Transformation</div>
-      <div class="skill">Cloud (GCP, Azure, AWS)</div>
-      <div class="skill">Generative AI</div>
-      <div class="skill">Cybersecurity</div>
-      <div class="skill">Project Management</div>
-      <div class="skill">IT Operations</div>
-      <div class="skill">Innovation</div>
-      <div class="skill">Team Leadership</div>
-      <div class="skill">Problem Solving</div>
+    <h2>Languages</h2>
+    <div class="languages">
+      <div class="lang">English</div>
+      <div class="lang">Tamil</div>
+      <div class="lang">Telugu</div>
+      <div class="lang">Hindi</div>
     </div>
   </section>
 
   <section class="contact">
     <h2>Contact</h2>
     <p>
-      Connect with me on 
-      <a href="https://www.linkedin.com/in/vijayakamalelancheran" target="_blank">LinkedIn</a>
+      <b>Email:</b> <a href="mailto:vijayakamal123@gmail.com">vijayakamal123@gmail.com</a> | <a href="mailto:vijayakamal123@yahoo.co.in">vijayakamal123@yahoo.co.in</a><br>
+      <b>Phone:</b> +91 97890 90790<br>
+      <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/vijayakamalelancheran" target="_blank">linkedin.com/in/vijayakamalelancheran</a>
     </p>
   </section>
 </body>
